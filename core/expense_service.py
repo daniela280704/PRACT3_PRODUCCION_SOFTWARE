@@ -85,4 +85,6 @@ class ExpenseService:
             totals[key] += expense.amount
 
         return dict(totals)
+
+
 # Fin del archivo
